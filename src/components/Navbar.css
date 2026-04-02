@@ -1,0 +1,43 @@
+.navbar-container{
+  width: 256px;
+height: 1095px;
+padding: 24px;
+opacity: 1;
+
+}
+
+.navbar-box{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-title{
+  line-height: 10px;
+}
+
+.cardlist{
+  display: flex;
+  margin-right: 30px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+a{
+  width: 208px;
+height: 30px;
+margin-right: 40px;
+justify-content: center;
+background-color: aliceblue;
+padding-top: 30px;
+gap: 12px;
+text-align: center;
+
+opacity: 1;
+padding-top: 10px;
+padding-right: 16px;
+padding-bottom: 12px;
+border-radius: 8px;
+border-left-width: 4px;
+
+}
