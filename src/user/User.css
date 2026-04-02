@@ -1,0 +1,110 @@
+.users{
+    width: 1024px;
+    height: 1248px;
+    border: 1px solid black;
+    padding: 24px 32px;
+}
+.users .comment {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+}
+.users .comment p{
+    width: 550px;
+}
+.users .comment button{
+    width: 128px;
+    height: 44px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(11, 28, 48, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.input_info{
+    display: flex;
+    margin-top: 30px;
+
+}
+.input_info input{
+   width: 448px;
+   height: 44px;
+   border-radius: 20px;
+   text-indent: 30px;
+   border: none;
+   background-color: rgba(239, 244, 255, 1);
+   
+}
+.input_info button{
+    width: 192px;
+    height: 44px;
+    margin-left: 40px;
+    background-color: rgba(239, 244, 255, 1);
+    border-radius: 20px;
+    border: none;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+}
+.number h2{
+   font-size: 10px;
+}
+.add_user{
+    width: 960px;
+    height: 430px;
+    padding-top: 20px;
+}
+.access{
+    width: 152px;
+    height: 52px;
+    padding: 15px 10px;
+    background-color: rgba(239, 244, 255, 1);
+}
+.access_a{
+    width: 292px;
+    height: 52px;
+    padding: 15px 10px;
+    background-color: rgba(239, 244, 255, 1);
+
+}
+
+.title{
+    display: flex;
+    gap: 20px;
+    background-color: rgba(239, 244, 255, 1);
+}
+.users_second{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.u_email{
+    padding-left: 20px;
+}
+.green{
+    margin-left: 70px;
+    width: 80px;
+    height: 22px;
+    background-color: rgba(0, 128, 0, 0.364);
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.users_second p{
+    padding-left: 80px;
+}
+.users_second h5{
+    margin-left: 90px;
+    font-size: 18px;
+}
+.btn{
+    margin-left: 110px;
+    display: flex;
+    gap: 20px;
+}
